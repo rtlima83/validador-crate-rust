@@ -1,6 +1,6 @@
 [package]
 name = "validador_crate_rust"
-version = "0.1.1"
+version = "0.1.5"
 edition = "2024"
 authors = ["Rodrigo <dev.rodrigotlima@gmail.com>"]
 description = "Criando um Crate"
