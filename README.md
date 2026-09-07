@@ -1,26 +1,26 @@
-# validador_crate_rust
+# validador_cpf_crate_rust
 
 Crate em Rust para validação de CPF, com verificação completa dos dígitos verificadores e tratamento de sequências repetidas.
 
-## Instalação
+## 📦 Instalação
 
 Adicione ao `Cargo.toml` do seu projeto:
 
 ```toml
 [dependencies]
-validador_crate_rust = "0.1.0"
+validador_cpf_crate_rust = "0.1.0"
 ```
 
 Ou, via linha de comando:
 
 ```bash
-cargo add validador_crate_rust
+cargo add validador_cpf_crate_rust
 ```
 
-## Como utilizar
+## 🚀 Como utilizar
 
 ```rust
-use validador_crate_rust as vd;
+use validador_cpf_crate_rust as vd;
 use std::io;
 
 fn main() {
@@ -56,7 +56,7 @@ vd::validar_cpf("52998224725");    // true
 vd::validar_cpf("111.111.111-11"); // false (sequência repetida)
 ```
 
-## Como funciona
+## 🧠 Como funciona
 
 1. Extrai apenas os dígitos da string recebida, ignorando pontos e traço.
 2. Verifica se o resultado tem exatamente 11 dígitos.
@@ -64,7 +64,7 @@ vd::validar_cpf("111.111.111-11"); // false (sequência repetida)
 4. Calcula os dois dígitos verificadores com base nos 9 primeiros números, usando pesos decrescentes e o resto da divisão por 11.
 5. Compara os dígitos calculados com os informados no CPF.
 
-## Testes
+## ✅ Testes
 
 O crate já inclui testes unitários. Para rodá-los:
 
@@ -72,6 +72,6 @@ O crate já inclui testes unitários. Para rodá-los:
 cargo test
 ```
 
-## Licença
+## 📄 Licença
 
 MIT
