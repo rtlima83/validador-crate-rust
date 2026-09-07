@@ -1,11 +1,11 @@
 [package]
 name = "validador_crate_rust"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Rodrigo <dev.rodrigotlima@gmail.com>"]
 description = "Criando um Crate"
-licence = "Free"
+license = "MIT"
 repository = "https://github.com/rtlima83/validador-crate-rust"
-documentation = 
+documentation = "https://github.com/rtlima83/validador-crate-rust/blob/main/README.md"
 
 [dependencies]
